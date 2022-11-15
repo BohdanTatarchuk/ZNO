@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ZNO</string>
+    <string name="welcome">Вітаємо!</string>
+    <string name="sign_in_text">Увійдіть до свого профілю:</string>
+    <string name="hint_email">електронна пошта</string>
+    <string name="hint_password">пароль</string>
+    <string name="something">Користуєтесь нашим додатком вперше?</string>
+</resources>
