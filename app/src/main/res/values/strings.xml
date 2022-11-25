@@ -1,8 +1,19 @@
 <resources>
     <string name="app_name">ZNO</string>
     <string name="welcome">Вітаємо!</string>
-    <string name="sign_in_text">Увійдіть до свого профілю:</string>
+    <string name="sign_in_text">Введіть наступні дані:</string>
     <string name="hint_email">електронна пошта</string>
+    <string name="hint_username" >iм´я користувача</string>
     <string name="hint_password">пароль</string>
     <string name="something">Користуєтесь нашим додатком вперше?</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_start_page">StartPage</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>

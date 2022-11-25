@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:backgroundTint="#FFFED8"
-    tools:context=".MainActivity">
+    tools:context=".SignIn">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/layout"
@@ -21,37 +21,23 @@
         app:layout_constraintVertical_bias="0.499">
 
         <TextView
-            android:id="@+id/heading"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="4dp"
-            android:fontFamily="@font/raleway_bold"
-            android:text="@string/welcome"
-            android:textColor="#000000"
-            android:textSize="40sp"
-            android:textStyle="bold"
-
-            app:layout_constraintLeft_toLeftOf="@id/layout"
-            app:layout_constraintTop_toTopOf="@id/layout" />
-
-        <TextView
             android:id="@+id/login_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="100dp"
             android:fontFamily="@font/raleway_bold"
             android:text="@string/sign_in_text"
             android:textColor="#000000"
-            android:textSize="18sp"
+            android:textSize="24sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/heading" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/email"
             android:layout_width="310dp"
             android:layout_height="47dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="20dp"
             android:autofillHints="emailAddress"
             android:drawableStart="@drawable/email"
             android:ems="14"
@@ -69,7 +55,7 @@
             android:id="@+id/editTextTextPassword"
             android:layout_width="310dp"
             android:layout_height="42dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="10dp"
             android:autofillHints="password"
             android:drawableStart="@drawable/password"
             android:ems="14"
@@ -81,27 +67,16 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/email" />
 
-        <TextView
-            android:id="@+id/firsttime_text"
-            android:layout_width="298dp"
-            android:layout_height="62dp"
-            android:layout_marginTop="50dp"
-            android:fontFamily="@font/raleway"
-            android:text="@string/something"
-            android:textColor="#000000"
-            android:textSize="20sp"
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="307dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="20dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="6dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/firsttime_text"
-            app:srcCompat="@drawable/ic_button"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+            app:srcCompat="@drawable/ic_sign_in"
             android:contentDescription="@string/todo" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
